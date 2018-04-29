@@ -1,3 +1,5 @@
 # DUT18 Frequencies full car model
 
-Full car frequency model for the DUT18. Two more were made over the year, this one is used for data applicable to the shaker rig tests. Other models + Controls can be found in the DUT-Racing group.
+This github includes a somewhat final iteration of the frequency models used during the design process. These models have been made to be easy to use and can be understood quite quickly. 
+
+In the scripts folder, several scripts for plotting, other types of visualization and simple calculations can be found. These aren't ordered correctly but might be useful for some.
