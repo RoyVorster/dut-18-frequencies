@@ -1,4 +1,4 @@
-# DUT18 Frequencies full car model
+# DUT18 Frequency models
 
 This github includes a somewhat final iteration of the frequency models used during the design process. These models have been made to be easy to use and can be understood quite quickly. 
 
