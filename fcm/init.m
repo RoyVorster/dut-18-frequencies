@@ -1,18 +1,10 @@
 clc
 clear 
 
-nonbus = 0;
-if (nonbus == 1)
-    addpath(genpath('scripts_nonbus/'))
-else
-    addpath(genpath('scripts/'))
-end
+addpath(genpath('scripts/'))
 
 busCreation
-
-clear 
-
-load buses.mat
+save buses.mat
 
 %% Global constants
 
@@ -44,13 +36,16 @@ end
 
 %% Init
 
-if (your_dut == 16)
-    constants16
-elseif (your_dut == 18)
-    constants18
-else
-    disp("Niet hopen.")
+switch your_dut
+    case 16
+        constants16
+    case 17
+        constants17
+    case 18
+        constants18
+    otherwise
+        disp("Not a car man")
 end
 
-clearvars road_input your_dut
+clearvars road_input
 

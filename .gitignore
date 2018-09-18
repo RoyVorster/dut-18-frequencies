@@ -1,6 +1,7 @@
-/slprj
+slprj/
 *.autosave
 *.original
 *.slxc
 *.~m
 *.asv
+*.mexa64

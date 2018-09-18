@@ -2,10 +2,7 @@ clc
 clear 
 
 busCreation
-
-clear 
-
-load buses.mat
+save buses.mat
 
 %% Global constants
 

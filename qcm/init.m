@@ -2,11 +2,9 @@ clc
 clear 
 
 addpath(genpath('scripts/'))
+
 busCreation
-
-clear
-
-load buses.mat
+save buses.mat
 
 %% Global constants
 
